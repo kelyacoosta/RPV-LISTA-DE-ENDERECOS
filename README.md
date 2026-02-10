@@ -1,16 +1,12 @@
-# RPV - Lista de Endereços
+# RPV Lista de Endereços
 
-## Descrição
+## Descricao
 
-Este projeto tem como objetivo desenvolver uma aplicação para cadastro e listagem de endereços, aplicando na prática os conceitos estudados sobre o processo de desenvolvimento de software.
+Este projeto tem como objetivo desenvolver uma aplicação simples para cadastro e listagem de endereços, aplicando conceitos básicos de desenvolvimento de software.
 
-...
+## Issues Criadas
 
-### Issues criadas 
-
- [Configuração inicial do projeto Cadastro e Listagem de Endereços](https://github.com/kelyacoosta/RPV-LISTA-DE-ENDERECOS/issues/1) - ⚠️ A desenvolver
- [Criação do formulário de endereço](https://github.com/kelyacoosta/RPV-LISTA-DE-ENDERECOS/issues/2) - ⚠️ A desenvolver
- 
- [Fluxo de inserção do endereço](https://github.com/kelyacoosta/RPV-LISTA-DE-ENDERECOS/issues/3) - ⚠️ A desenvolver
-
- [Listagem dos endereços cadastrados](https://github.com/kelyacoosta/RPV-LISTA-DE-ENDERECOS/issues/4) - ⚠️A desenvolver
+- [Configuração inicial do projeto](https://github.com/kelyacoosta/RPV-LISTA-DE-ENDERECOS/issues/1)
+- [Criação do formulário](https://github.com/kelyacoosta/RPV-LISTA-DE-ENDERECOS/issues/2)
+- [Fluxo de inserção do endereço](https://github.com/kelyacoosta/RPV-LISTA-DE-ENDERECOS/issues/3)
+- [Listagem dos endereços cadastrados](https://github.com/kelyacoosta/RPV-LISTA-DE-ENDERECOS/issues/4)
