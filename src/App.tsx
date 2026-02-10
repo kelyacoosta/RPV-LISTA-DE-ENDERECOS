@@ -79,7 +79,7 @@ export function App() {
 
     setEnderecos(oldState => [...oldState, novoEndereco])
 
-    // limpar campos e erro
+
     setLogradouro("")
     setNumero("")
     setBairro("")

@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: #fef6f0;
 }
 
 .card {
@@ -11,6 +12,10 @@
   justify-content: center;
   gap: 8px;
   flex-direction: column;
+  background-color: #fff8f0;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(222, 197, 185, 0.3);
 }
 
 .input-wrapper {
@@ -24,10 +29,9 @@
 
 .erro {
   position: absolute;
-  color: red;
+  color: #e07a5f;
   font-size: 12px;
   top: 140px;
-  /* Ajustado para caber abaixo dos inputs */
 }
 
 .item-list {
@@ -36,11 +40,6 @@
   justify-content: flex-start;
   gap: 8px;
   margin: 10px 0;
-
-  li {
-    min-width: 200px;
-    text-align: left;
-  }
 }
 
 ul {
@@ -57,21 +56,22 @@ ul {
   justify-content: center;
   width: 100%;
   height: 100%;
-  background-color: rgba(215, 213, 213, 0.12);
+  background-color: rgba(254, 246, 240, 0.7);
   z-index: 9999;
 }
 
 .modal {
   max-width: 400px;
   padding: 24px;
-  background-color: #fafafa;
+  background-color: #fff8f0;
   border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
   flex-direction: column;
-  color: #202020;
+  color: #6b584c;
+  box-shadow: 0 4px 12px rgba(222, 197, 185, 0.5);
 }
 
 .modal-buttons {
@@ -88,17 +88,30 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
-  color: white;
+  background-color: #e6ccb2;
+  color: #6b584c;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: border-color 0.25s, background-color 0.25s;
 }
 
 button:hover {
-  border-color: #646cff;
+  border-color: #d4a373;
+  background-color: #d4a373;
+  color: white;
 }
 
 input {
   padding: 0.6em 1.2em;
   font-size: 1em;
+  border: 1px solid #d4a373;
+  border-radius: 6px;
+  background-color: #fff8f0;
+  color: #6b584c;
+  transition: border-color 0.25s;
+}
+
+input:focus {
+  outline: none;
+  border-color: #c48e55;
+  background-color: #fff4e6;
 }
