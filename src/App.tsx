@@ -99,7 +99,7 @@ export function App() {
           <input placeholder='Bairro' value={bairro} onChange={e => setBairro(e.target.value)} />
           <input placeholder='Cidade' value={cidade} onChange={e => setCidade(e.target.value)} />
           <input placeholder='Estado' value={estado} onChange={e => setEstado(e.target.value)} />
-          <input placeholder='CEP' value={cep} onChange={e => setCep(e.target.value)} />
+          <input placeholder='CEP - Somente números' value={cep} onChange={e => setCep(e.target.value)} />
         </div>
         <button onClick={adicionarEndereco}>Cadastrar Endereço</button>
       </div>
