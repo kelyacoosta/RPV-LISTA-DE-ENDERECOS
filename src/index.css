@@ -1,8 +1,8 @@
 :root {
   font-family: system-ui, Arial, sans-serif;
   line-height: 1.5;
-  color: #6b584c;
-  background-color: #fef6f0;
+  color: #111;
+  background-color: #f5f5f5;
 }
 
 
@@ -11,52 +11,50 @@ body {
   min-height: 100vh;
   display: grid;
   place-items: center;
-  background-color: #e5cdba;
 }
 
 
 h1 {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   line-height: 1.1;
+  margin-bottom: 1rem;
 }
 
 a {
-  color: #d4a373;
+  color: #111;
   font-weight: 500;
   text-decoration: none;
 }
 
 a:hover {
-  color: #c48e55;
+  text-decoration: underline;
 }
 
 
 input {
   padding: 0.6rem 0.8rem;
   border-radius: 6px;
-  border: 1px solid #d4a373;
-  background-color: #fff8f0;
-  color: inherit;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #111;
 }
 
 input:focus {
   outline: none;
-  border-color: #c48e55;
+  border-color: #111;
 }
 
 
 button {
   padding: 0.6rem 1.2rem;
   border-radius: 8px;
-  border: none;
-  font-size: 1rem;
-  font-family: inherit;
+  border: 1px solid #111;
+  background-color: #111;
+  color: #fff;
   font-weight: 500;
-  background-color: #d4a373;
-  color: white;
   cursor: pointer;
 }
 
 button:hover {
-  opacity: 0.9;
+  background-color: #333;
 }
