@@ -28,10 +28,10 @@
 }
 
 .erro {
-  position: absolute;
   color: #e07a5f;
   font-size: 12px;
-  top: 140px;
+  margin-bottom: 4px;
+  text-align: left;
 }
 
 .item-list {
