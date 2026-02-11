@@ -39,10 +39,11 @@ export function App() {
       return
     }
 
-    if (!/^\d{8}$/.test(cep)) {
-      setErro({ active: true, description: "O CEP deve ter 8 números." })
-      return
+    if (cep.length !== 8 || isNaN(Number(cep))) {
+      setErro({ active: true, description: "O CEP deve ter 8 números." });
+      return;
     }
+
 
     const enderecoJaCadastrado = enderecos.filter(
       e =>
